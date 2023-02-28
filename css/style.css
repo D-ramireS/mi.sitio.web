@@ -1,0 +1,70 @@
+
+body {
+    background-color: rgb(206, 169, 231);
+}
+
+
+/* elementos de clase */
+h1 {
+    color: rgb(116, 97, 187);
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: rgb(116, 97, 187);
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    color: rgb(116, 97, 187);
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* elementos de clase */
+
+a {
+    color: rgb(64, 21, 54);
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+}
+
+/* clases atadas a un elemento */
+
+h1.font-especial {
+    font-family: 'Bebas Neue',sans-serif ;
+}
+h2.font-especial{
+    font-family: 'Bebas Neue',sans-serif ;
+}
+h3.font-especial{
+    font-family: 'Bebas Neue',sans-serif ;
+}
+
+a.font-especial{
+    font-family: 'Bebas Neue',sans-serif ;
+}
+
+/* bebas-neue-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/bebas-neue-v9-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bebas-neue-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bebas-neue-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bebas-neue-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/bebas-neue-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bebas-neue-v9-latin-regular.svg#BebasNeue') format('svg'); /* Legacy iOS */
+  }
