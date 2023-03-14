@@ -5,12 +5,16 @@
 
 div {
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 span {
     font-family: 'Cinzel';
     font-size: 10em;
-    color: rgb(40, 171, 197);
+    color: rgba(192, 223, 19, 0.781);
 }
 
 /* cinzel-regular - latin */
