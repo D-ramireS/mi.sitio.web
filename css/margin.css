@@ -39,5 +39,6 @@ border: 3px dotted cadetblue;
  border: 1px double darkcyan;
 }
 .box-5 {
+    background-color: aqua;
     border: 1px outset hotpink;
 }
